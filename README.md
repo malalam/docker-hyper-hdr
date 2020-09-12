@@ -6,7 +6,7 @@ Uses [Awawa's HDR edit for hyperion-ng](https://github.com/awawa-dev/HyperHDR/re
 ## Running
 - Clone repo 
 - Build docker image 
-  `make build`
+  ```make build```
 - Run the container
   ```bash
   make run-hyper-hdr
