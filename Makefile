@@ -12,6 +12,7 @@ run-hyper-hdr: ## Run container on port configured in `config.env`
 		-p=$(HOST_PORT):$(APP_PORT) \
 		-p=$(PROTO_PORT):$(PROTO_PORT) \
 		-p=$(JSON_PORT):$(JSON_PORT) \
+		--restart=always \
 		--name="$(APP_NAME)" $(APP_NAME)
 
 stop-hyper-hdr: ## Stop and remove a running container
