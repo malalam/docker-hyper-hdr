@@ -13,6 +13,6 @@ RUN rm Hyperion-6.2.0.7A-Linux-armv7l.deb
 
 EXPOSE 8090 19445 19444
 
-RUN echo 'Running on port 8090'
+RUN echo 'Running webUIon port 8090. Port 19445 exposed for protobuffer server (hyperion-screen-cap)'
 
 CMD ["hyperiond"]
