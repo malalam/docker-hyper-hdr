@@ -11,7 +11,7 @@ RUN apt-get install -y ./Hyperion-6.2.0.7A-Linux-armv7l.deb
 
 RUN rm Hyperion-6.2.0.7A-Linux-armv7l.deb
 
-EXPOSE 8090 19445
+EXPOSE 8090 19445 19444
 
 RUN echo 'Running on port 8090'
 
